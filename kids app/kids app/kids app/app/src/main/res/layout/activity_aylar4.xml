@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".aylar4">
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="162dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="aylar5gecis"
+        android:text="Devam"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="213dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/takvimanlatirkene" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="391dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="  Temmuz: Sıcak ve güneşli yaz aylarının ortasındayız. Havuzlarda yüzebilir, piknik yapabilir ve yaz festivallerine katılabiliriz."
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="382dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="  Eylül: Sonbaharın başlangıcıdır. Hava yavaş yavaş serinlemeye başlar ve okullar açılır. Mevsimlerin değiştiği aydır."
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="380dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="  Ağustos: Tatilin son ayıdır. Deniz, kum ve güneşin tadını çıkarmak için hala zamanımız var. Biraz daha dinlenmek için enerji toplarız."
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="AYLAR"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

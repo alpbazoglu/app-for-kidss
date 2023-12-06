@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".carpma3">
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="183dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="carpma4gecis"
+        android:text="Teste Başla!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="130dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="carpbutonu"
+        android:text="ÇARP"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="ÇARPMA İŞLEMİ"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="SONUÇ:"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="384dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Aşağıdaki araç ile çarpma denemeleri yapabilirsin. İyice pekiştirdiğini düşündüğüne butona tıklayarak teste başlayabilirsin!"
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber12"
+        android:layout_width="74dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <EditText
+        android:id="@+id/editTextNumber14"
+        android:layout_width="74dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

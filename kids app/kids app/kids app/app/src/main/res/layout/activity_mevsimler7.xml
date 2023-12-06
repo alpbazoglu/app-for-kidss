@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".mevsimler7">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="ilkbaharSkorBelirle"
+        android:text="2. Kısma Geç"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="İLKBAHAR"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="326dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="İlkbaharı hatırlatan resimleri işaretleyiniz, her doğru cevap +1 puan, her yanlış cevap -1 puandır."
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="303dp"
+        android:layout_height="402dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/baharoyunbir" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kisoyunbir" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sonbaharoyunbir" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kisoyuniki" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/yazoyunbir" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/baharoyunuc" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/baharr" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/yazoyunuc" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/yazoyuniki" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kisoyunuc" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/sonbaharoyunuc" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sonbaharoyuniki" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:lottie_rawRes="@raw/checkmark" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:lottie_rawRes="@raw/checkmark" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

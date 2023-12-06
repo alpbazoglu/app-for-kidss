@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".spelling2">
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="178dp"
+        android:layout_height="91dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="spelling3gecis"
+        android:text="Teste Başla!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/spellinggiris" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="HECELEME-YAZMA"
+        android:textColor="@color/yaziColor"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="386dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Her kelime, hecelerden oluşur. Bir hece, bir kelimenin sesli harf veya harf grubundan oluşur ve bir kelimenin okunuşunu belirler. Şimdi bir kelimeyi hecelere ayırmayı öğrenelim:  Örneğin, kelime &quot;kalem&quot;i hecelere ayıralım: ka-lem. Bu kelime iki heceden oluşuyor.  Bir kelimeyi nasıl hecelere ayıracağınızı öğrenmek için kelimedeki sesli harfleri bulmanız gerekmektedir. Sesli harfler, &quot;a, e, i, o, u&quot; harfleridir. Bu harfleri bulduğunuzda, bir sonraki sessiz harfe veya kelimenin sonuna kadar hecelemeye devam edebilirsiniz.  Örneğin, kelime &quot;masa&quot;yı hecelere ayıralım: ma-sa. İlk sesli harf olan &quot;a&quot;dan sonra bir sonraki sessiz harfe geçtik ve hecelemeyi bitirdik."
+        android:textColor="@color/yaziColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

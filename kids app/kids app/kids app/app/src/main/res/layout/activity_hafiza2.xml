@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".hafiza2">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="175dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="hafiza3gecis"
+        android:text="2. Kısma Geç"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="339dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Aşağıdaki 4 boşluğa sırasıyla gördüğün sayıları yazmanı bekliyoruz. Doğru bildiğin her sayı için 1 puan alacaksın. Başarılar!"
+        android:textColor="@color/yaziColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="307dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/numbertwo" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/numberthree" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/numberfour" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/numberonee" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/numbersix" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/numberseven" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/numbereight" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/numbernine" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/beyincik" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="  2)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="  1)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="  3)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="  4)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

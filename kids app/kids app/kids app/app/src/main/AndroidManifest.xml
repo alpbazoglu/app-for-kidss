@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2004Project1"
+        tools:targetApi="31">
+        <activity
+            android:name=".skortablosu"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul6"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul5"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul4"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul3"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul2"
+            android:exported="false" />
+        <activity
+            android:name=".resmibul1"
+            android:exported="false" />
+        <activity
+            android:name=".spelling5"
+            android:exported="false" />
+        <activity
+            android:name=".spelling4"
+            android:exported="false" />
+        <activity
+            android:name=".speling3"
+            android:exported="false" />
+        <activity
+            android:name=".spelling2"
+            android:exported="false" />
+        <activity
+            android:name=".spelling1"
+            android:exported="false" />
+        <activity
+            android:name=".carpma8"
+            android:exported="false" />
+        <activity
+            android:name=".carpma7"
+            android:exported="false" />
+        <activity
+            android:name=".carpma6"
+            android:exported="false" />
+        <activity
+            android:name=".carpma5"
+            android:exported="false" />
+        <activity
+            android:name=".carpma4"
+            android:exported="false" />
+        <activity
+            android:name=".carpma3"
+            android:exported="false" />
+        <activity
+            android:name=".carpma2"
+            android:exported="false" />
+        <activity
+            android:name=".carpma1"
+            android:exported="false" />
+        <activity
+            android:name=".gunler10"
+            android:exported="false" />
+        <activity
+            android:name=".gunler9"
+            android:exported="false" />
+        <activity
+            android:name=".gunler8"
+            android:exported="false" />
+        <activity
+            android:name=".gunler7"
+            android:exported="false" />
+        <activity
+            android:name=".gunler6"
+            android:exported="false" />
+        <activity
+            android:name=".gunler5"
+            android:exported="false" />
+        <activity
+            android:name=".gunler4"
+            android:exported="false" />
+        <activity
+            android:name=".gunler3"
+            android:exported="false" />
+        <activity
+            android:name=".gunler2"
+            android:exported="false" />
+        <activity
+            android:name=".aylar13"
+            android:exported="false" />
+        <activity
+            android:name=".aylar12"
+            android:exported="false" />
+        <activity
+            android:name=".aylar11"
+            android:exported="false" />
+        <activity
+            android:name=".aylar10"
+            android:exported="false" />
+        <activity
+            android:name=".aylar9"
+            android:exported="false" />
+        <activity
+            android:name=".aylar8"
+            android:exported="false" />
+        <activity
+            android:name=".aylar7"
+            android:exported="false" />
+        <activity
+            android:name=".aylar6"
+            android:exported="false" />
+        <activity
+            android:name=".aylar5"
+            android:exported="false" />
+        <activity
+            android:name=".aylar4"
+            android:exported="false" />
+        <activity
+            android:name=".aylar3"
+            android:exported="false" />
+        <activity
+            android:name=".aylar2"
+            android:exported="false" />
+        <activity
+            android:name=".gunler1"
+            android:exported="false" />
+        <activity
+            android:name=".aylar1"
+            android:exported="false" />
+        <activity
+            android:name=".aylargunler"
+            android:exported="false" />
+        <activity
+            android:name=".toptakibi2"
+            android:exported="false" />
+        <activity
+            android:name=".toptakibi"
+            android:exported="false" />
+        <activity
+            android:name=".yonler8"
+            android:exported="false" />
+        <activity
+            android:name=".yonler7"
+            android:exported="false" />
+        <activity
+            android:name=".yonler6"
+            android:exported="false" />
+        <activity
+            android:name=".yonler5"
+            android:exported="false" />
+        <activity
+            android:name=".yonler4"
+            android:exported="false" />
+        <activity
+            android:name=".yonler3"
+            android:exported="false" />
+        <activity
+            android:name=".yonler2"
+            android:exported="false" />
+        <activity
+            android:name=".yonler"
+            android:exported="false" />
+        <activity
+            android:name=".hafiza4"
+            android:exported="false" />
+        <activity
+            android:name=".hafiza3"
+            android:exported="false" />
+        <activity
+            android:name=".hafiza2"
+            android:exported="false" />
+        <activity
+            android:name=".hafiza"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler11"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler10"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler9"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler8"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler7"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler6"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler5"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler4"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler3"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler2"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimler"
+            android:exported="false" />
+        <activity
+            android:name=".saatler6"
+            android:exported="false" />
+        <activity
+            android:name=".saatler5"
+            android:exported="false" />
+        <activity
+            android:name=".saatler4"
+            android:exported="false" />
+        <activity
+            android:name=".saatler3"
+            android:exported="false" />
+        <activity
+            android:name=".saatler2"
+            android:exported="false" />
+        <activity
+            android:name=".saatler"
+            android:exported="false" />
+        <activity
+            android:name=".egitimmitestmi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
